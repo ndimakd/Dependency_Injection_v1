@@ -1,0 +1,8 @@
+@startuml
+Class_container ..|>Class_move
+
+Class_container_2 ..|>Class_move
+
+Class_move ..|>Class_transport
+@enduml
+
