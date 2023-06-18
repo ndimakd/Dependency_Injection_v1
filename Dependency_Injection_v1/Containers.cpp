@@ -20,13 +20,13 @@ void container::Do_smth()
 void container::change_location(int new_location, transport &object)
 {
   
-    move* destination = new move(_name, _location, new_location); /// Create dependency
+    move* destination = new move(_name, _location, new_location); ///@ Create dependency
     
-    object.move_by_transport(); /// function in transport body emulated work of an object in moving container
-    destination->move_to(_name, object); ///  emulation of moving 
-    _location = new_location; /// set new location for the container
+    object.move_by_transport(); ///@ function in transport body emulated work of an object in moving container
+    destination->move_to(_name, object); ///@  emulation of moving 
+    _location = new_location; ///@ set new location for the container
 
-    delete destination; /// We removed the move object when the task was completed
+    delete destination; ///@ We removed the move object when the task was completed
 
    std::cout << "container: "<< _name << " has been moved to new location: " << new_location << "\n";
       
@@ -48,10 +48,10 @@ void container_2::Do_smth()
 */
 void container_2::change_location(int new_location, transport &object)
 {
-    destination_2->set_new_location(new_location); /// we set new location wen we decide to move
-    object.move_by_transport(); /// function in transport body emulated work of an object in moving container
-    destination_2->move_to(_name, object);  ///  emulation of moving 
-    _location = new_location; /// set new location for the container
+    destination_2->set_new_location(new_location); ///@@ we set new location wen we decide to move
+    object.move_by_transport(); ///@@ function in transport body emulated work of an object in moving container
+    destination_2->move_to(_name, object);  ///@@  emulation of moving 
+    _location = new_location; ///@@ set new location for the container
 
 
    std::cout << "Container: " << _name << " has been moved to new location: " << _location << "\n";

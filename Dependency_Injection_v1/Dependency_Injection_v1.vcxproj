@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Containers.cpp" />
     <ClCompile Include="move.cpp" />
-    <ClCompile Include="test_v1.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="transport.cpp" />
   </ItemGroup>
   <ItemGroup>
