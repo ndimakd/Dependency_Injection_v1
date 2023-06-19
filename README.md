@@ -28,8 +28,10 @@ Programme  shows the dependency injection concept. The concept shown on the test
 + Add new functionality, some easy for tracking
 - created object live, may be difficulties with many "heavy" objects
 
-3..modules separately
+3. Dependency injection with smart pointers. 
++ smart pointer controls connection
 
-3.
+
+
 
 
