@@ -1,8 +1,43 @@
 @startuml
-Class_container ..|>Class_move
+Class container {
+string name
+int location
+void Do smth()
+void change_location()
+int Get_location()
+}
 
-Class_container_2 ..|>Class_move
+Class container_2 {
+string name
+int location
+void Do smth()
+void change_location()
+int Get_location()
+}
 
-Class_move ..|>Class_transport
+
+Class move {
+
+string _move_name
+int _start_location
+int _end_location
+void set_new_location()
+move_to()
+}
+
+Class transport {
+string _type
+string _tname
+int _number
+void move_by_transport()
+}
+
+container "1" ..|> "1" move
+
+
+
+container_2 "1" ..|>"1"move
+
+move "1" .. "0" transport
+
 @enduml
-

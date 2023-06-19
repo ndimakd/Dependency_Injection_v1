@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 #include "transport.h"
 #include "move.h"
 
@@ -118,6 +119,68 @@ public:
  * @brief standart variable of class
  * @  parametrs  _location  - set by setter, _name and _mass - constructor
 */
+private:
+    std::string _name;
+    int _mass = 0;
+    int _location = 0;
+};
+
+
+
+/**
+ * @brief This container shows dependency injection with smart pointers.
+*/
+class container_3 {
+public:
+    /**
+     * @brief constructor of classe
+     * @param name  - name of jbject
+     * @param mass  - technichal var, not used in this programm
+     * @This construcror includes creation pointer on class move
+    */
+      container_3(std::string const& name, int const& mass) : _name(name), _mass(mass), _move(std::make_unique<move>())
+   {
+        std::cout << "Container: " << _name << " create! Location: " << _location << "\n";
+    }
+    std::unique_ptr<move> _move;  
+
+
+    /**
+     * @brief destructor implemened for control delation of ojects
+    */
+    ~container_3() { std::cout << "Container: " << _name << " delated" << "\n"; }
+    /**
+     * @brief Setters set location of object, when object created it is 0.
+     * @param location just int number in real - x,y,z,
+    */
+    void Set_location(int location)
+    {
+        _location = location;
+        std::cout << "Container: " << _name << ": " << "New location is: " << _location << "\n";
+    }
+    /**
+     * @brief Getter for getting current location of object
+     * @return return current location, int in that programm
+    */
+    int Get_location()
+    {
+        return _location;
+    }
+
+    /**
+     * @brief Emullation of work
+    */
+    void Do_smth();
+    /**
+     * @brief change location of an object, in that function created dependency
+     * @param new_location
+     * @param object
+    */
+    void change_location(int new_location, transport& object);
+    /**
+     * @brief standart variable of class
+     * @  parametrs  _location  - set by setter, _name and _mass - constructor
+    */
 private:
     std::string _name;
     int _mass = 0;

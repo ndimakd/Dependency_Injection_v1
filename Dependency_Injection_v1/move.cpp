@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+#include <memory>
 #include "move.h"
 
 

@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 #include "transport.h"
 
 /**
@@ -6,8 +7,13 @@
  * @ for this used another object transpotr
 */
 class move {
-
 public:
+
+    /**
+     * @brief constuctor for pointers
+    */
+    move() {}
+
     /**
      * @brief constructor 
      * @param name - name of object that will  move
@@ -39,8 +45,8 @@ private:
      * @_end location - location wil move
     */
     std::string _move_name;
-    int _start_location;
-    int _current_location;
-    int _end_location;
+    int _start_location =0;
+    int _current_location =0;
+    int _end_location =0;
 
 };

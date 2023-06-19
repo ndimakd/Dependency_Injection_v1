@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "move.h"
 
 #include "containers.h"
 #include "transport.h"
@@ -57,4 +58,31 @@ void container_2::change_location(int new_location, transport &object)
    std::cout << "Container: " << _name << " has been moved to new location: " << _location << "\n";
 
 }
+
+/**
+ * @brief container work emulation
+*/
+void container_3::Do_smth()
+{
+    std::cout << "Container: " << _name << ": I am exist and do smth: " << " Location: " << _location << "\n";
+}
+
+/**
+ * @brief In that function for conainer cteates object for change locatin of container
+ * @param new_location
+ * @param object - transport object that take part in the moving.
+*/
+void container_3::change_location(int new_location, transport& object)
+{
+
+     ///@ Create dependency
+    object.move_by_transport(); ///@ function in transport body emulated work of an object in moving container
+    _move->set_new_location(new_location);
+    _move->move_to(_name, object); ///@  emulation of moving 
+    _location = new_location; ///@ set new location for the container
+
+    std::cout << "container: " << _name << " has been moved to new location: " << new_location << "\n";
+
+}
+
 

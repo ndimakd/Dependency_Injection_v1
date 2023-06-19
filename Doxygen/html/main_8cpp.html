@@ -78,7 +78,8 @@ $(function() {
   <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="containers_8h_source.html">containers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="transport_8h_source.html">transport.h</a>&quot;</code><br />
@@ -113,12 +114,13 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creation of containers and transport and move it. </p>
-<p>Code shows the dependency injection concept. The concept shown on the test programme emulated the work of a warehouse with classes: -container (oblect - container 1, container2) -transport (object - crane, train, truck) -move (technical object for move and change location of containers) </p><dl class="section return"><dt>Returns</dt><dd>changes printed on. </dd></dl>
+<p>@ Code shows the dependency injection concept. The concept shown on the test programme emulated the work of a @warehouse with classes: -container (oblect - container 1, container 2, container 3) - dependency in function -<a class="el" href="classcontainer__2.html" title="This class shows concept of dependency implemented in body of class.">container_2</a> (oblect - container 1, container 2, container 3) - dependency in class body -<a class="el" href="classcontainer__2.html" title="This class shows concept of dependency implemented in body of class.">container_2</a> (oblect - container 1, container 2, container 3) - dependency with uniq pointer on class -transport (object - crane, train, truck) -move (technical object for move and change location of containers) </p><dl class="section return"><dt>Returns</dt><dd>changes printed on. </dd></dl>
 <p>@ Here created some object from class transport for change states of another objects - containers</p>
 <p>@Created containers with dependency from mooving, dependency implemented in function</p>
 <p>@Created containers with dependency from mooving, dependency implemented in body of class</p>
+<p>@Created containers with dependency injection by pointers</p>
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00020">20</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00022">22</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 </div>
 </div>

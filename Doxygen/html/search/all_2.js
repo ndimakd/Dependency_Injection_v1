@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['get_5flocation_0',['Get_location',['../classcontainer.html#a701538ba70b5eb019ee55ac6d0a3e513',1,'container::Get_location()'],['../classcontainer__2.html#a59664da46e3fc826f36a0a86bb276a17',1,'container_2::Get_location()']]],
-  ['get_5fname_1',['get_name',['../classtransport.html#a7594ca3c8f3812270ae10ad4c009657e',1,'transport']]]
+  ['do_5fsmth_0',['Do_smth',['../classcontainer.html#a98952cde80e658ddf1a4ed18c00bc2f3',1,'container::Do_smth()'],['../classcontainer__2.html#afb9a0ff602eba453bad01e3afc7d0582',1,'container_2::Do_smth()'],['../classcontainer__3.html#a5bd1197758e75d2b2812238c982f2f49',1,'container_3::Do_smth()']]]
 ];
