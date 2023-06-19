@@ -54,8 +54,8 @@ void container_2::change_location(int new_location, transport &object)
     destination_2->move_to(_name, object);  ///@@  emulation of moving 
     _location = new_location; ///@@ set new location for the container
 
-
    std::cout << "Container: " << _name << " has been moved to new location: " << _location << "\n";
+   delete destination_2;
 
 }
 

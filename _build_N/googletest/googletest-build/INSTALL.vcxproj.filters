@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\CMakeFiles\65123675df75dc7c5e963fe0787661e4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{704B38C8-33F9-3840-99C2-BE46A749F05F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

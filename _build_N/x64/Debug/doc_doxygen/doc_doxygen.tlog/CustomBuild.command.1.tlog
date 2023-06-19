@@ -1,0 +1,24 @@
+^C:\USERS\NDIMA\DESKTOP\NEW_YARD\DEPENDENCY_INJECTION_ASSIGNMENT\_BUILD\CMAKEFILES\F020A3667F667784ACC1852B48698478\DOC_DOXYGEN.RULE
+setlocal
+cd C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\doxygen\bin\doxygen.exe" C:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/_build/Doxyfile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NDIMA\DESKTOP\NEW_YARD\DEPENDENCY_INJECTION_ASSIGNMENT\DEPENDENCY_INJECTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/dependency_injection -BC:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/_build --check-stamp-file C:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

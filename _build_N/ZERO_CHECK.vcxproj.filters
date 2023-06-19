@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\CMakeFiles\f020a3667f667784acc1852b48698478\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googlemock\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googlemock\cmake\gmock.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googlemock\cmake\gmock_main.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googletest\CMakeLists.txt">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googletest\cmake\Config.cmake.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googletest\cmake\gtest.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googletest\cmake\gtest_main.pc.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\_build\googletest\googletest-src\googletest\cmake\internal_utils.cmake">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\dependency_injection\cmake\googletest-download.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\dependency_injection\cmake\googletest.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\dependency_injection\docs\Doxyfile.in">
+      <Filter>Buildsystem Input Files\docs</Filter>
+    </None>
+    <None Include="C:\Users\ndima\Desktop\NEW_YARD\dependency_injection_assignment\dependency_injection\test\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\test</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{704B38C8-33F9-3840-99C2-BE46A749F05F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{45F009A6-A6C5-3184-92A4-16BC67B9F008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{26D34785-01A9-327D-B6AE-F15062C23E01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\docs">
+      <UniqueIdentifier>{6FB26BBB-4E54-3C66-A7CB-0A084E8AC2B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\test">
+      <UniqueIdentifier>{B9D9541F-B0B7-3E90-84D0-5FCA88453D00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

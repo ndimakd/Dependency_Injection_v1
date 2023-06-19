@@ -85,7 +85,9 @@ public:
     /**
      * @brief Destructor with additional message about destruction
     */
-    ~container_2() { std::cout << "Container: " << _name << " deleted" << "\n"; }
+    ~container_2() { 
+        
+        std::cout << "Container: " << _name << " deleted" << "\n"; }
     /**
      * @brief Setters set location of object, when object created it is 0.
      * @param location just int number in real - x,y,z,

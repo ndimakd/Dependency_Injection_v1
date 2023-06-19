@@ -110,21 +110,21 @@ int main() {
     container_3* cont_3_2 = new container_3("test_3_2", 100);
     container_3* cont_3_3 = new container_3("test_3_3", 50);
 
-    std::cout << "\n" << "Moovment of conttainer_2_1  : " << "\n\n";
+    std::cout << "\n" << "Moovment of conttainer_3_1  : " << "\n\n";
 
     cont_3_1->Do_smth();
     cont_3_1->Set_location(21);
     cont_3_1->change_location(200, *truck_1);
     delete cont_3_1;
 
-    std::cout << "\n" << "Moovment of conttainer_2_2  : " << "\n\n";
+    std::cout << "\n" << "Moovment of conttainer_3_2  : " << "\n\n";
 
 
     cont_3_2->Do_smth();
     cont_3_2->Set_location(21);
     delete cont_3_2;
 
-    std::cout << "\n" << "Moovment of conttainer_2_3  : " << "\n\n";
+    std::cout << "\n" << "Moovment of conttainer_3_3  : " << "\n\n";
 
     cont_3_3->Do_smth();
     cont_3_3->Set_location(21);

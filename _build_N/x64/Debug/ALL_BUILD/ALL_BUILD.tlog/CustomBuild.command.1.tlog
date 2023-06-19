@@ -1,0 +1,10 @@
+^C:\USERS\NDIMA\DESKTOP\NEW_YARD\DEPENDENCY_INJECTION_ASSIGNMENT\DEPENDENCY_INJECTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/dependency_injection -BC:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/_build --check-stamp-file C:/Users/ndima/Desktop/NEW_YARD/dependency_injection_assignment/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
